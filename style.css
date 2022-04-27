@@ -36,9 +36,14 @@ main {
   overflow: hidden;
 }
 
+.split-panel-media-container {
+  background: var(--accent);
+}
+
 .main-img {
-  display: flex;
-  margin: 0 auto;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+  vertical-align: middle;
 }
 .details {
   text-align: center;
@@ -57,7 +62,6 @@ main {
     min-width: max(75%, 1000px);
   }
   .main-img {
-    align-self: center;
     content: url(./src/images/image-header-desktop.jpg);
   }
   .details {
@@ -67,6 +71,7 @@ main {
     margin: 0 auto;
     text-align: left;
     padding: 5em 4em;
+    width: 50%;
   }
   .details__stat {
     display: flex;

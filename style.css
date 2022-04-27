@@ -42,7 +42,7 @@ main {
 
 .main-img {
   mix-blend-mode: multiply;
-  opacity: 0.75;
+  opacity: 0.85;
   vertical-align: middle;
 }
 .details {
